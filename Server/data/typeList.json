@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hotel",
+    "image": "./images/type_1.webp"
+  },
+  {
+    "name": "Apartments",
+    "image": "./images/type_2.jpg"
+  },
+  {
+    "name": "Resorts",
+    "image": "./images/type_3.jpg"
+  },
+  {
+    "name": "Villas",
+    "image": "./images/type_4.jpg"
+  },
+  {
+    "name": "Cabins",
+    "image": "./images/type_5.jpg"
+  }
+]

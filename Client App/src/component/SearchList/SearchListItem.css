@@ -1,0 +1,123 @@
+.searchListItem {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.searchListItemBox > h2 {
+  color: #1072c0;
+}
+
+.searchItem-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.searchItem-left img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.action {
+  display: block;
+  color: green;
+}
+
+.noAction {
+  display: none;
+}
+
+.searchListItemBox {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.6rem;
+  display: inline-block;
+}
+.tag {
+  color: #fff;
+  background-color: green;
+  max-width: 38%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.desc {
+  /* white-space: nowrap; */
+  height: 100px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  box-shadow: inset 0 0 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 4px;
+}
+::-webkit-scrollbar {
+  width: 8px; /* Chiều rộng của thanh cuộn */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #808080; /* Màu nền của "nút" cuộn */
+  border-radius: 6px; /* Độ cong góc */
+}
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Màu nền của phần bao ngoài cùng của thanh cuộn */
+  border-radius: 6px; /* Độ cong góc */
+}
+.searchItem-right {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-rows: 1fr 1fr; */
+  align-items: flex-end;
+  justify-content: space-between;
+  justify-items: end;
+}
+.rate-group {
+  height: 20%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.rate_text {
+  font-weight: 600;
+}
+.rate {
+  background-color: #05367e;
+  padding: 4px 5px;
+  color: #fff;
+  margin-left: 75px;
+}
+
+.price-group {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.price-group .button-see {
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color: #1072c0;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  font-size: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.price-group .button-see:hover {
+  background-color: #1071c0c4;
+}
+
+.price {
+  font-size: 1.6rem;
+}
+.price_text {
+  color: #6b6b6b;
+}

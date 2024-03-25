@@ -1,0 +1,50 @@
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+    "username": "test123@example.com",
+    "password": "12345"
+}
+### Đăng nhập
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "test123@gmail.com",
+    "password": "12345"
+}
+###
+GET  http://localhost:5000/hotel
+###
+POST   3
+Content-Type: application/json
+
+{
+    "citys": "hà nội",
+    "adult": "2",
+    "childrent": "",
+    "rooms": "2"
+}
+###
+POST http://localhost:5000/detail-hotel
+Content-Type: application/json
+
+{
+    "_id": "6311a9c64a642f01423490bf",
+}
+################################
+
+GET http://localhost:5000/transaction
+######
+GET http://localhost:5000/get-all-data
+################################
+//lấy toàn bộ hotel cho admin
+DELETE  http://localhost:5000/delete-hotel
+Content-Type: application/json
+
+{
+    "id": "6311a54a4a642f0142349086",
+}
+
+############
+GET http://localhost:5000/all-transaction

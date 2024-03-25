@@ -1,0 +1,107 @@
+.formBookHotel {
+}
+.formInfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* border: 1px solid #000; */
+  gap: 6px;
+}
+
+.reserveInfo h2,
+.dates h2 {
+  margin: 16px 0;
+  /* border: 1px solid #000; */
+}
+.reserveInfo {
+}
+.boxInput {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.group-input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.group-input input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.group-input label {
+  font-weight: 600;
+}
+.selectRoom {
+}
+
+.selectRoom h2 {
+  margin: 16px 0;
+}
+
+.containerRoom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.selectedRoom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+.selectedInfo {
+}
+.dateNote {
+}
+.maxPeople {
+}
+.singerPrice {
+}
+
+.boxRoomNumber {
+  display: flex;
+  gap: 6px;
+}
+
+.roomNumber {
+  display: flex;
+  flex-direction: column;
+}
+.numberItem {
+}
+
+.totalBill {
+  margin-top: 24px;
+}
+
+.totalBill form {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.payment {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #969696;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  outline: none;
+}
+.button-book {
+  margin-left: 32px;
+  padding: 10px 24px;
+  border: none;
+  background-color: #1774ca;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-book:hover {
+  background-color: #2d97fa;
+}

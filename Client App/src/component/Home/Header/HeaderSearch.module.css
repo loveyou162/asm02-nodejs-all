@@ -1,0 +1,110 @@
+.header-search {
+  width: 100%;
+  position: relative;
+  top: 32px;
+}
+
+.multi-input {
+  display: grid;
+  grid-template-columns: 25% 25% 30% 20%;
+  border: 2px solid orange;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+}
+
+.multi-input .box input {
+  flex-grow: 1;
+  padding: 14px;
+  border: none;
+  margin-right: -10px;
+  border-collapse: collapse;
+  outline: none;
+}
+
+/* .multi-input input:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.multi-input input:last-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+} */
+
+.multi-input input {
+  border-radius: 10px;
+}
+
+.multi-input .box {
+  margin-left: 24px;
+}
+
+.multi-input .box > i {
+  color: #ccc;
+  /* padding: 23px 16px; */
+}
+
+.multi-input .btn-calendar {
+  border: none;
+  background-color: #ffffff;
+  color: #7c7c7c;
+  cursor: pointer;
+  text-align: left;
+  width: 200px;
+}
+.multi-input .btn-primary {
+  border: none;
+  background-color: #1072c0;
+  color: #fff;
+  padding: 16px 30px;
+  margin: 6px;
+  /* position: relative;
+  right: 18px; */
+  transition: 0.3s;
+  cursor: pointer;
+}
+.multi-input .btn-primary:hover {
+  background-color: #1071c09f;
+}
+
+.ok {
+  display: block;
+  position: absolute;
+  top: 64px;
+  left: 423px;
+  z-index: 9999;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+}
+.none {
+  display: none;
+}
+.box-input {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.group-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group-input input {
+  width: 60px;
+  /* padding: 0px; */
+  padding-right: 5px;
+  color: #ccc;
+}
+.group-input label {
+  width: 60px;
+  text-align: center;
+  color: #ccc;
+}
+.box-number {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 80%;
+  align-items: center;
+  justify-items: center;
+}

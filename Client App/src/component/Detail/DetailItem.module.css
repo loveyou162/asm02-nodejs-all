@@ -1,0 +1,28 @@
+.DetailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 2rem;
+}
+
+.distance {
+  color: #1774ca;
+  font-weight: 600;
+}
+.price {
+  color: #27872e;
+  font-weight: 600;
+}
+.button-book {
+  padding: 14px 24px;
+  border: none;
+  background-color: #1774ca;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.button-book:hover {
+  background-color: #2d97fa;
+}

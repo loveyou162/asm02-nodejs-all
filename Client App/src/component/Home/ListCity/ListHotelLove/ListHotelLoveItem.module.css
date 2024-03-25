@@ -1,0 +1,25 @@
+.hotel-love-item img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.list-hotel-info {
+  display: grid;
+  line-height: 28px;
+}
+.list-hotel-info a {
+  font-weight: 700;
+}
+.love-city {
+  font-weight: 400;
+}
+.love-rate {
+  display: flex;
+  align-items: center;
+}
+.love-rate .rate {
+  background-color: #05367e;
+  padding: 2px 5px;
+  color: #fff;
+  margin-right: 10px;
+}

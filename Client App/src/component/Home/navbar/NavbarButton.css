@@ -1,0 +1,40 @@
+.navbar-buton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+  padding: 14px 0;
+}
+
+.navbar-buton .navbar-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.navbar-buton h2 {
+  color: #fff;
+}
+.group-button {
+  display: flex;
+  align-items: center;
+}
+
+.group-button > p {
+  color: #fff;
+  padding: 0px 12px;
+}
+
+.group-button button {
+  border: none;
+  margin: 0 10px;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  transition: 0.3s;
+  color: #05367e;
+  cursor: pointer;
+}
+.group-button button:hover {
+  background-color: #bdbdbd !important ;
+}

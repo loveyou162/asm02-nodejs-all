@@ -1,0 +1,20 @@
+.navbar-item {
+  padding: 6px 15px;
+}
+.navbar-item a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.navbar-item a p {
+  padding: 0 8px;
+}
+.active {
+  border: 1px solid #ccc;
+  padding: 12px;
+  position: relative;
+  top: -12px;
+  border-radius: 22px;
+}

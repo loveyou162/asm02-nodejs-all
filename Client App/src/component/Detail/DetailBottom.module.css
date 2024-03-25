@@ -1,0 +1,50 @@
+.DetailBottom {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 16px;
+  padding: 16px;
+  margin: 24px 0;
+  align-items: start;
+}
+
+.DetailBottom-left {
+  position: relative;
+  right: 16px;
+}
+
+.DetailBottom-left h2 {
+  margin: 16px 0;
+}
+.DetailBottom-right {
+  background-color: #ebf3ff;
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nine_night {
+  display: flex;
+  align-items: center;
+}
+
+.nine_night p {
+  margin-left: 8px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.button-book {
+  padding: 14px 24px;
+  border: none;
+  background-color: #1774ca;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.button-book:hover {
+  background-color: #2d97fa;
+}

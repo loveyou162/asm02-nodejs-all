@@ -1,0 +1,12 @@
+.detailAll {
+  margin-top: 86px;
+}
+
+.detailPhotoList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.detailPhotoList img {
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.list-container {
+  position: relative;
+}
+
+.list-container h2 {
+  position: absolute;
+  top: -52px;
+}
+
+.list-type {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}

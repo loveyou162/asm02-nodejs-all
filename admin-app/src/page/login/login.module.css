@@ -1,0 +1,46 @@
+.login-page {
+}
+
+.login-form h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20% 35%;
+  gap: 10px;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.login-form a:hover {
+  color: #8b8b8b;
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.login-form button {
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: #3686ff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login-form button:active {
+  background-color: #096bff;
+}

@@ -1,0 +1,9 @@
+.list-hotel-love-container h2 {
+  margin-bottom: 32px;
+}
+
+.list-hotel-love {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}

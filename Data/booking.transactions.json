@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "65c04d21198649a95ce4ebbc"
+  },
+  "userId": {
+    "$oid": "65c0425667e1398c3c6fa472"
+  },
+  "hotel": {
+    "$oid": "65befe388b451760958beb54"
+  },
+  "room": [
+    "101",
+    "102",
+    "303"
+  ],
+  "dateStart": "05/02/2024",
+  "dateEnd": "10/02/2024",
+  "price": 1300,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c04f1d198649a95ce4ebf4"
+  },
+  "userId": {
+    "$oid": "65c0425667e1398c3c6fa472"
+  },
+  "hotel": {
+    "$oid": "65befe388b451760958beb54"
+  },
+  "room": [
+    "403",
+    "404"
+  ],
+  "dateStart": "13/02/2024",
+  "dateEnd": "17/02/2024",
+  "price": 1400,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cce260f851183293cbc4f5"
+  },
+  "userId": {
+    "$oid": "65c0425667e1398c3c6fa472"
+  },
+  "hotel": {
+    "$oid": "6311a54a4a642f0142349086"
+  },
+  "room": [
+    "102"
+  ],
+  "dateStart": "20/02/2024",
+  "dateEnd": "24/02/2024",
+  "price": 200,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+}]

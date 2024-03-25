@@ -1,0 +1,150 @@
+.rooms {
+  margin: 24px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #ccc;
+}
+
+.rooms > .boxTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rooms > .boxTitle > p {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: #8b8b8b;
+}
+
+.rooms > .boxTitle > a {
+  text-decoration: none;
+  border: 1px solid #00a508;
+  color: #00a508;
+  padding: 6px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.rooms > .boxTitle > a:hover {
+  border: 1px solid #00a508;
+  color: #ffffff;
+  background-color: #00a508;
+}
+
+.tableRooms {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 6px;
+}
+
+.theader th::after {
+  content: " ";
+  position: absolute; /* Đặt vị trí tuyệt đối để căn chỉnh với th */
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%); /* Dịch chuyển lên trên để căn chỉnh giữa */
+  width: 1px;
+  height: 16px;
+  background-color: #a7a7a7;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: none;
+}
+
+th {
+  position: relative;
+  font-weight: 500;
+}
+
+input[type="checkbox"] {
+  /* margin-right: 5px; */
+}
+.tableRooms thead > tr th:nth-child(1) {
+  width: 5%;
+}
+.tableRooms thead > tr th:nth-child(2) {
+  width: 15%;
+}
+.tableRooms thead > tr th:nth-child(3) {
+  width: 20%;
+}
+.tableRooms thead > tr th:nth-child(4) {
+  width: 22%;
+}
+.tableRooms thead > tr th:nth-child(5) {
+  width: 8%;
+}
+.tableRooms thead > tr th:nth-child(6) {
+  width: 10%;
+}
+.tableRooms thead > tr th:nth-child(7) {
+  width: 20%;
+  display: flex;
+}
+
+.tableRooms tbody > tr td:nth-child(7) .btnDelete {
+  display: inline;
+}
+
+.tableRooms tbody > tr td:nth-child(7) .btnEdit {
+  display: inline;
+  margin-left: 16px;
+}
+
+.tableRooms tbody > tr td:nth-child(7) .btnEdit button {
+  border: 1px dotted #199700;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: #199700;
+  transition: 0.3s;
+}
+
+.tableRooms tbody > tr td:nth-child(7) .btnEdit button:hover {
+  background-color: #199700;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+}
+
+.tableRooms tbody > tr td:nth-child(7) .btnDelete button {
+  border: 1px dotted red;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: red;
+  transition: 0.3s;
+}
+.tableRooms tbody > tr td:nth-child(7) .btnDelete button:hover {
+  background-color: red;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+}
+
+.pageNumber {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.pageNumber p {
+}
+.group-button button {
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  margin: 0 8px;
+  background-color: transparent;
+}
+.group-button button ion-icon {
+  display: flex;
+  align-items: center;
+}

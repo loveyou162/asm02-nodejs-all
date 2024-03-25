@@ -1,0 +1,36 @@
+.form-sign-in {
+  background-color: #05367e;
+  margin-top: 100px;
+}
+
+.box-signIn {
+  padding: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  line-height: 56px;
+}
+
+.box-signIn form {
+  display: flex;
+  gap: 10px;
+  width: 25%;
+}
+
+.box-signIn form input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+}
+.box-signIn form button {
+  /* width: 100%; */
+  padding: 16px;
+  border: none;
+  background-color: #1a73be;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,132 @@
+.newHotel {
+}
+
+.boxTitle {
+  display: block;
+  box-shadow: 0 3px 10px #ccc;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 16px;
+}
+
+.boxTitle > p {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: #8b8b8b;
+}
+
+.form-add-hotel {
+  margin: 16px;
+  box-shadow: 0 3px 10px #ccc;
+  border-radius: 12px;
+  padding: 12px;
+  position: relative;
+}
+
+.group-input-bottom button {
+  padding: 24px 52px;
+  margin: 44px 0;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form-add-hotel button:hover {
+  background-color: #005252;
+  /* color: #d780ff; */
+}
+.form-add-hotel button:active {
+  box-shadow: 0 0 10px rgba(0, 18, 31, 0.692);
+}
+
+.form-info-hotel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 12px;
+  column-gap: 10%;
+  padding: 12px;
+}
+
+.boxInputLeft {
+}
+.group-input {
+}
+
+.group-input label {
+  display: block;
+  padding: 12px;
+  text-transform: capitalize;
+}
+.group-input input {
+  display: block;
+  width: 80%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.group-input input:focus {
+  border-bottom: 2px solid #353535;
+  outline: none;
+}
+
+.group-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.group-input input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  transition: 0.1s;
+  position: relative; /* Cần thiết để chia sẻ cùng không gian với :before và :after */
+}
+
+.group-input input:focus {
+  border-bottom: 2px solid #353535;
+  outline: none;
+}
+
+.group-input input:focus:before,
+.group-input input:focus:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 2px;
+  background-color: #353535;
+  transition: 0.1s;
+}
+
+.group-input input:focus:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.group-input input:focus:after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.group-input textarea {
+  display: block;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+.group-input select {
+  margin: 0 12px;
+}
+
+.group-input-bottom {
+  grid-column: 1/3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}

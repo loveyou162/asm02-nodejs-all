@@ -1,0 +1,40 @@
+.Transaction {
+  margin: 48px 0;
+}
+
+.Transaction > h3 {
+  padding: 16px 0;
+}
+
+.Transaction {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Transaction table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Transaction td,
+.Transaction th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.Transaction tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.Transaction tr:hover {
+  background-color: #ddd;
+}
+
+.Transaction th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #38a4c0;
+  color: white;
+}
