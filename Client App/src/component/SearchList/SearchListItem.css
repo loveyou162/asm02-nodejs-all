@@ -5,6 +5,7 @@
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .searchListItemBox > h2 {

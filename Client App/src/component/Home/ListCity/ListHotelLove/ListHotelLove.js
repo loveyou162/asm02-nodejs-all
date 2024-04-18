@@ -16,6 +16,7 @@ const ListHotelLove = () => {
       <div className={styles["list-hotel-love"]}>
         {hotelRatingTallest[2].ratingTallesHotel.map((love, index) => (
           <ListHotelLoveItem
+            id={love._id}
             image={love.photos[0]}
             name={love.name}
             city={love.city}

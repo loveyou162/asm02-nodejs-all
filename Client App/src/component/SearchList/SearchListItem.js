@@ -23,7 +23,7 @@ const SearchListItem = (props) => {
     navigate(`/search/${props.hotelId}`);
   };
   return (
-    <div className="searchListItem">
+    <div className="searchListItem" onClick={submitHotelId}>
       <div className="searchItem-left">
         <img src={props.image} alt={props.name} />
         <div className="searchListItemBox">

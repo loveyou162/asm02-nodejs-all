@@ -23,7 +23,7 @@ const Type = {
     return JSON.parse(fs.readFileSync(p, "utf8"));
   },
 };
-//lấu hotel vào số lượng hotel
+//lấy hotel vào số lượng hotel
 exports.getHotelAndQuantityHotels = async (req, res) => {
   try {
     const city = ["Ha Noi", "Ho Chi Minh", "Da Nang"];

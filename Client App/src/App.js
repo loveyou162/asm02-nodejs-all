@@ -26,6 +26,7 @@ const router = createBrowserRouter([
           { path: ":hotelId", element: <Detail /> },
         ],
       },
+      { path: "detail/:hotelId", element: <Detail /> },
       { path: "login", element: <LoginPage /> },
       {
         path: "transaction",

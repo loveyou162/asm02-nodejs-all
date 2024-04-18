@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+## Trang Đặt Phòng Khách Sạn - Trang Admin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+Trang client của chúng tôi là nơi khách hàng có thể khám phá các khách sạn và đặt phòng khách sạn từ trang web của chúng tôi. Tính năng này được thiết kế để cung cấp trải nghiệm đặt phòng thuận tiện và thoải mái cho người dùng.
 
-In the project directory, you can run:
+![Screenshot 2024-04-18 231748](https://i.imgur.com/V1uGgl3.png)
 
-### `npm start`
+### Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
+- React Router DOM
+- React-redux
+- Redux-toolkit
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### 🚀 Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    npm start
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎛️ Chức năng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Dashboard**: Chức năng này cung cấp cái nhìn tổng quan về hoạt động của trang web. Quản trị viên có thể xem các thống kê về doanh số bán hàng, số lượng đơn hàng, các sản phẩm phổ biến và các thông tin quan trọng khác.
+- **Quản Lý Người Dùng**: Quản trị viên có thể quản lý người dùng bằng cách xem danh sách người dùng, thêm, sửa, xoá người dùng, và xem thông tin chi tiết của từng người dùng.
+- **Quản Lý Khách Sạn**: Chức năng này cho phép quản trị viên quản lý các khách sạn trong hệ thống. Quản trị viên có thể xem danh sách khách sạn, thêm mới khách sạn, sửa thông tin khách sạn và xoá khách sạn.
+- **Quản Lý Phòng**: Quản trị viên có thể quản lý các phòng trong các khách sạn bằng cách xem danh sách phòng, thêm mới phòng, sửa thông tin phòng và xoá phòng.
+- **Thêm Khách Sạn**: Quản trị viên có thể thêm mới khách sạn vào hệ thống bằng cách điền thông tin chi tiết về khách sạn và hình ảnh.
+- **Thêm Phòng**: Quản trị viên có thể thêm mới phòng vào từng khách sạn bằng cách điền thông tin chi tiết về phòng và hình ảnh.
+- **Đăng Nhập và Đăng Ký**: Quản trị viên có thể đăng nhập vào hệ thống bằng tài khoản của mình hoặc đăng ký tài khoản mới nếu chưa có.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 🛠️Cài đặt và triển khai
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```c
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Đảm bảo rằng bạn đã cài đặt và cấu hình đầy đủ môi trường để triển khai trang client.
+- Clone repo từ kho lưu trữ.
+- Thực hiện các cấu hình cần thiết cho trang client theo nhu cầu của bạn.
+- Triển khai ứng dụng trên môi trường của bạn và kiểm tra chức năng.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Required
 
-## Learn More
+Reacjs
+Trình duyệt web hiện đại (Chrome, Firefox, Safari, Edge)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tác giả
 
-### Code Splitting
+Phạm Đình Thắng
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### Lời kết
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Trang quản lý đặt phòng khách sạn của chúng tôi là công cụ quản trị mạnh mẽ giúp quản trị viên điều hành mọi hoạt động của trang web một cách hiệu quả. Chúng tôi hy vọng rằng giao diện quản trị này sẽ giúp nâng cao trải nghiệm của bạn trong quản lý trang web và mang lại sự hài lòng cho khách hàng của chúng tôi. Hãy tham gia cùng chúng tôi trong hành trình quản lý và phát triển trang web của bạn!
